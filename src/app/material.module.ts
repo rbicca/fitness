@@ -7,7 +7,10 @@ import {MatButtonModule,
         MatDatepickerModule,
         MatNativeDateModule,
         MAT_DATE_LOCALE,
-        MatSidenavModule} from '@angular/material';
+        MatSidenavModule,
+        MatToolbarModule,
+        MatListModule,
+        MatTabsModule} from '@angular/material';
 
 @NgModule({
   imports: [MatButtonModule, 
@@ -17,7 +20,10 @@ import {MatButtonModule,
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule,
+    MatTabsModule
   ],
   exports: [MatButtonModule, 
     MatCheckboxModule, 
@@ -26,7 +32,10 @@ import {MatButtonModule,
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule,
+    MatTabsModule
   ],
   providers:[
     {provide: MAT_DATE_LOCALE, useValue: 'pt-BR'}
